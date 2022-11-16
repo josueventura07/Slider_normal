@@ -2,14 +2,20 @@ const btnRight = document.querySelector('.btn_right')
 const btnLeft = document.querySelector('.btn_left')
 const sliderImg = document.querySelectorAll('.img_slider')
 const slider = document.querySelector('.slider')
+const info = document.querySelectorAll('.info')
+const clock = document.querySelector('.clock')
 
 
-function crearContador() {
-   
-  let contador = 0;
 
-   
-  }
+// sliderImg.forEach((element, i) => {
+//     sliderImg[i].addEventListener('click', (e) => {
+//           info.forEach((element, i) => {
+//             element.classList.remove('info_active')
+//           });
+//           info[i].classList.add('info_active')
+          
+//     })
+// });
 
   let count = 0
 
